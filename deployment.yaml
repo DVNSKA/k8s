@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:1.15.0
+          image: nginx:1.11.0
           ports:
             - containerPort: 80
 ---
@@ -31,4 +31,4 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 80
-# deployed nginx:1.15.0 replicas:1 by DVNSKA at Fri Apr  3 09:58:41 UTC 2026
+# deployed nginx:1.11.0 replicas:1 by DVNSKA at Mon Apr  6 12:08:32 UTC 2026
